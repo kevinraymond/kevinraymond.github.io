@@ -23,17 +23,19 @@ I did not perform extensive testing and I don't follow any rigorous methodology,
 | AG News | 92.0% | 94.6% | 24.6M vs 109M |
 | DBpedia | 98.2% | 99.3% | 24.6M vs 109M |
 
+*Test accuracy on standard splits.*
+
 ### Vision (beats ViT with 4x fewer params)
 
 This was fun to explore and probably could use a lot more testing and validation.
 
-CNN-Wave hybrid hit 92.72% on CIFAR-10 vs ViT's 90.92%, with 1.6M vs 6.3M params respectively. The real boost came from a hybrid approach using CNN for local features and wave for global.
+CNN-Wave hybrid hit 92.72% test accuracy on CIFAR-10 vs ViT's 90.92%, with 1.6M vs 6.3M params respectively. The real boost came from a hybrid approach using CNN for local features and wave for global.
 
 ### Audio (keyword detection)
 
 This one I've got a demo for that runs in browser with ONNX and WASM. It was exciting to watch this one train because "it kept getting better", which makes sense to me because audio ... wave ... yeah. That's the depth of my technical commentary.
 
-92.6% on Speech Commands (35 keywords) with a tiny 584K param model at 2.4ms inference! Cool.
+92.6% test accuracy on Speech Commands (35 keywords) with a tiny 584K param model at 2.4ms inference! Cool.
 
 ## What Didn't Work
 
