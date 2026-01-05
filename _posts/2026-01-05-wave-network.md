@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wave Network Exploration"
+permalink: /wave-network-exploration/
 ---
 
 What happens if you replace attention with waves? That's the idea behind Wave Network. Claude and I spent a little time together seeing how far it could go.
