@@ -1,0 +1,14 @@
+title: Kevin Raymond
+description: Occasional thoughts on AI and building things
+theme: minima
+
+author:
+  name: Kevin Raymond
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Minima theme settings
+minima:
+  date_format: "%b %-d, %Y"
