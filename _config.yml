@@ -1,9 +1,8 @@
-title: Kevin Raymond
-description: Occasional thoughts on AI and building things
+title: Side Quests
+description: Short adventures in code, AI, and building things
 theme: minima
 
-author:
-  name: Kevin Raymond
+author: Kevin Raymond
 
 # Build settings
 markdown: kramdown
@@ -11,7 +10,7 @@ permalink: /:title/
 
 # Minima theme settings
 minima:
-  skin: dark
   date_format: "%b %-d, %Y"
-  social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/getkev/" }
+
+# Social links (Minima 2.5 style)
+linkedin_username: getkev
